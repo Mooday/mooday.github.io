@@ -1,21 +1,34 @@
 <!DOCTYPE html>
 <html>
 <style>
+    *, *:before, *:after {
+    box-sizing: border-box;
+    }
+
     body{
         font-family: 'Poppins', sans-serif;
         background-color: #f3e5f5;
     }
 
+    .card{
+        background-color: whitesmoke;
+        border-radius: 16px;
+        margin: 2rem auto;
+        padding: 2rem;
+    }
+
     .heading{
-        display: grid;
-        grid-template: 1fr, 1fr;
+        display: flex;
+        justify-content: center;
         align-items: center;
     }
 </style>
 <body>
     <title>Roberto Samudio</title>
-    <heading>
-        <h1>Work in Progress</h1>
-    </heading>
+    <card>
+        <heading>
+            <h1>Work in Progress</h1>
+        </heading>
+    </card> 
 </body>
 </html>
